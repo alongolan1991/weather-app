@@ -17,7 +17,7 @@ const SingleWeatherArea = styled.div`
 width: 100%;
 height : 250px;
 margin : 10px 0;
-border : 1px solid ghostwhite;
+border : 1px solid grey;
 box-sizing : border-box;
 `;
 

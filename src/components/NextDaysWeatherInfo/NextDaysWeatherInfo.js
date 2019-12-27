@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 import styled from "styled-components";
 import NextDayweatjerInfoBox from "./NextDayweatjerInfoBox";
 
@@ -13,7 +13,6 @@ const nextDaysWeatherInfo = ({ tempList }) => {
 const NextDaysWeatherInfoDiv = styled.div`
   width: 100%;
   height: 55%;
-  background-color: #f7fffe;
   display : flex;
   justify-content : space-between;
 `;

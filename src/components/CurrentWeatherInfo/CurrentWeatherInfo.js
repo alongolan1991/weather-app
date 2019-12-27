@@ -69,6 +69,8 @@ const CurrentWeatherInfoDiv = styled.div`
   background-color: gainsboro;
   box-sizing: border-box;
   padding: 10px;
+  font-family : Inria Serif;
+
 `;
 
 const CityName = styled.h3`
@@ -79,6 +81,7 @@ const CityName = styled.h3`
 const DateHeader = styled.h4`
   text-align: left;
   margin: 20px 0;
+
 `;
 
 const CityAndDate = styled.div`

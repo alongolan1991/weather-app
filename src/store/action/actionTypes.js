@@ -1,3 +1,4 @@
 export const STORE_WEATHER = 'STORE_WEATHER'; 
 export const INIT_WEATHER = 'INIT_WEATHER';
 export const REMOVE_CITY = 'REMOVE_CITY';
+export const STORE_CUSTOM_WEATHER = 'STORE_CUSTOM_WEATHER';

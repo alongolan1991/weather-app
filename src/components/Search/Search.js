@@ -1,13 +1,13 @@
 import React from "react"
 import styled from 'styled-components';
 
-const serach = () => {
+const serach = (props) => {
   return (
     <SearchSection>
       <label>
-        <input type="text" placeholder="Add City" />
+        <input onChange={props.changed} value={props.value} type="text" placeholder="Add City" />
       </label>
-      <button >ADD</button>
+      <button onClick={props.clicked}>ADD</button>
     </SearchSection>
   );
 };

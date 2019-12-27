@@ -12,7 +12,7 @@ const reducer = (state = initialState, action) => {
       });
       return {
         ...state,
-        weather: array
+        weather: state.weather.concat(array)
       };
     }
     case actionType.REMOVE_CITY: {
@@ -23,6 +23,12 @@ const reducer = (state = initialState, action) => {
       return {
         ...state,
         weather: array
+      };
+    }
+    case actionType.STORE_CUSTOM_WEATHER: {
+      return {
+        ...state,
+        weather: state.weather.concat(action.weather)
       };
     }
     default:

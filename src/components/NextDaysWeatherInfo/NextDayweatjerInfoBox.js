@@ -14,7 +14,6 @@ const nextDayweatjerInfoBox = ({tempInfo}) => {
             <InfoHeader>{Math.round(tempInfo.temp.day)}{"\u00b0"}</InfoHeader>
             <InfoHeader>{tempInfo.weather[0].description}</InfoHeader>
             <WeatherIcon icon={tempInfo.weather[0].icon}></WeatherIcon>
-
         </WeatherBox>
     )
 
@@ -23,12 +22,14 @@ const nextDayweatjerInfoBox = ({tempInfo}) => {
 const WeatherBox = styled.div`
     width : 18%;
     height : 100%;
-    background-color : cadetblue;
+    /* background-color : cadetblue; */
     display : flex;
     padding : 10px;
     box-sizing : border-box;
     flex-direction : column;
     align-items : center;
+    font-family : Inria Serif;
+
 `;
 
 const DateHeader = styled.h5`
